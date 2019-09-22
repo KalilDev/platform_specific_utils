@@ -1,0 +1,2 @@
+import 'package:flutter/painting.dart' show NetworkImage, AssetImage;
+getImageProvider(String url, {Map<String, String> headers}) => (url?.startsWith('asset') ?? false) ? AssetImage(url) :NetworkImage(url,headers: headers);

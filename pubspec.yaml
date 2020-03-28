@@ -10,9 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker:
+  file_picker:
   tuple:
   cached_network_image:
+    path: ../flutter_cached_network_image
+  share:
 
 dev_dependencies:
   flutter_test:
